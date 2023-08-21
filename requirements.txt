@@ -1,0 +1,11 @@
+pandas
+openai
+PyPDF2
+numpy
+tiktoken
+quart
+quart-cors
+plotly
+scipy
+scikit-learn
+matplotlib
