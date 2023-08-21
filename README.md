@@ -44,3 +44,13 @@ Once everything is set up, enable the plugin in ChatGPT to start using it.
 
 ## Usage
 After installation, you can use the plugin within ChatGPT to retrieve information about Brazilian laws and bills by invoking the plugin's specific commands or queries.
+
+## Official Website
+For more information about this plugin and other related projects, [My WebSite](https://dametodata.com)
+
+## Plugin Information
+Detailed information about the TalkLawBrazil plugin can be found on our official page:[Detailed Plugin Information](https://www.dametodata.com/plugins-for-gpt)
+
+## Chat Demo
+See the capabilities of the TalkLawBrazil plugin: [Chat Demo](https://chat.openai.com/share/72b92285-1bda-4419-9657-61a28ca9982a)
+
