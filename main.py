@@ -128,10 +128,10 @@ async def get_law_info(law_key, question):
 @app.get("/logo.png")
 async def plugin_logo():
     # Define the logo's filename.
-    filename = 'logo.jpg'
+    filename = 'logo.png'
     
     # Send the logo as a response.
-    response = await quart.send_file(filename, mimetype='image/jpg')
+    response = await quart.send_file(filename, mimetype='image/png')
     
     # Set cache headers to cache the logo for one week.
     response.headers['Cache-Control'] = 'public, max-age=31536000, must-revalidate'

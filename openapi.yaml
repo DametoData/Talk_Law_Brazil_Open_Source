@@ -1,10 +1,10 @@
 openapi: 3.0.1
 info:
-  title: PL 2630 Plugin
+  title: Plugin for Extract relevant text of laws and Bills from Brazil 
   description: The user can inquire and extract pertinent information about laws and bills being considered in Brazil. It is essential to first execute the get_laws_dict function to acquire the keys that can be utilized in the law_key parameter to run the get_law_info function.
   version: 'v1'
 servers:
-  - url: https://tlcbr.leonardodameto.repl.co
+  - url: https://talklawbrazilopensource.leonardodameto.repl.co
 paths:
   /dict_laws:
     get:

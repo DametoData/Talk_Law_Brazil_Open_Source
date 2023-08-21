@@ -1,21 +1,21 @@
 {
     "schema_version": "v1",
-    "name_for_human": "TLCBR",
-    "name_for_model": "TLCBR",
+    "name_for_human": "Talk_law_Brazil_Open_source",
+    "name_for_model": "Talk_law_Brazil_Open_source",
     "description_for_human": "Interact with laws and bills in progress in the Brazilian Congress.",
     "description_for_model": "Returns relevant information about laws and bills currently in progress in the Brazilian Congress.",
     "auth": {
         "type": "service_http",
         "authorization_type": "bearer",
         "verification_tokens": {
-            "openai": "caf894a3754a46fc91f7603bcc2588b5"
+            "openai": "8aaaf52f4e1b449699dc5ba19919a642"
         }
     },
     "api": {
       "type": "openapi",
-      "url": "https://tlcbr.leonardodameto.repl.co/openapi.yaml"
+      "url": "https://talklawbrazilopensource.leonardodameto.repl.co/openapi.yaml"
     },
-    "logo_url": "https://tlcbr.leonardodameto.repl.co/logo.png",
+    "logo_url": "https://talklawbrazilopensource.leonardodameto.repl.co/logo.png",
     "contact_email": "dametodata@gmail.com",
     "legal_info_url": "https://www.dametodata.com"
 }  
