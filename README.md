@@ -10,7 +10,8 @@ To install and use this plugin with OpenAI's ChatGPT, follow these steps:
 
 - Create a new repl on Replit.com.
 - Clone this repository into your repl.
-- Modify the URL in the code to point to your repl's URL.
+- pip install -r requirements.txt
+- Modify the URLs in the code to point to your repl's URL.
 
 ### 2. Configure OpenAI API Key
 
@@ -25,7 +26,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 - Go to ChatGPT (GPT-4) and navigate to Plugins.
 - Select "Develop your own Plugin".
 - Paste the URL related to your repl project.
-- When prompted for the _SERVICE_AUTH_KEY, enter hello.
+- When prompted for the _SERVICE_AUTH_KEY in main.py file that is= 'hello'.
 
 ### 4. Verification
 
@@ -37,8 +38,6 @@ Copy the verification code provided by ChatGPT. Paste this code into `.well-know
     "openai": "OPENAI-PLUGIN-CODE-HERE"
   }
 }'''
-
-Replace OPENAI-PLUGIN-CODE-HERE with the actual verification code you received.
 
 ###  5. Enable the Plugin
 Once everything is set up, enable the plugin in ChatGPT to start using it.
